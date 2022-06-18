@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* background-color: aquamarine; */
+}
+#header{
+    background-color: #132C41;
+    height: 50px;
+    color: #fff4c7;
+  
+}
+#header i {
+    font-size: 1.8em;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+    
+   
+}
+
+li a{
+    text-decoration: none;
+    margin: 10px 2px;
+    padding: 10px;
+    color: #fff8dc;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+li a:hover{
+    background-color: #C8E5FE;
+    color: #121212;
+}
+
+#home{
+    background-image: url(images/home.jpg);
+}
+
+.cont-para{
+    margin: 0px auto 0 auto;
+    font-size: 1.2em;
+}
+.centered {
+    color: #fff;
+    position: absolute;
+    font-size: 1.2em;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.contact{
+    height: 50px;
+    width: 80px;
+    margin: 10px 40px;
+    
+}
+.contact a {
+    color: #fff;
+    height: 50px;
+}
+ a > i {
+    font-size: 25px;
+}
+#services, #feedback{
+    background-color: #C8E5FE;
+}
+#contact, #footer{
+    background-color: #1E3942;
+}  
+
+.button{
+    color: #fff;
+    padding: 5px;
+    background-color: #1E3942;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: #274852;   
+}
+
+.comp{
+    border-bottom:3px solid #1E3942 ;
+    margin: 10px auto;
+}
+
+.main-h2{
+    font-size: 50px;
+    box-sizing: border-box;
+}
+.sub-h2{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.fed-btn{
+    background-color: #274852;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 5px 60px 10px 60px;
+    color: #fff8dc;
+}
+.fed-btn:hover{
+    background-color: #1E3942;
+}
